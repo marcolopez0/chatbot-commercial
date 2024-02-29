@@ -96,13 +96,13 @@ const Layout = () => {
 
                     main: [{
                         selectors: {
-                            ['@media (min-width: 480px)']: {
+                            ['@media (min-width: 500px)']: {
                                 maxWidth: '600px',
                                 background: "#FFFFFF",
                                 boxShadow: "0px 14px 28.8px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.2)",
                                 borderRadius: "8px",
-                                maxHeight: '200px',
-                                minHeight: '100px',
+                                maxHeight: '400px',
+                                minHeight: '200px',
                             }
                         }
                     }]
@@ -112,7 +112,7 @@ const Layout = () => {
                     showCloseButton: true
                 }}
             >
-                <Stack horizontal verticalAlign="center" style={{ gap: "8px" }}>
+                <Stack horizontal verticalAlign="center" style={{ gap: "1px", size: "4px" }}>
                     <TextField className={styles.urlTextBox}  >
                     You must ensure that you consider data privacy and security when using AI. <br></br>
                     The Use of AI tools and applications must comply with TELUS Internaitonal Generative AI Acceptable Use Policy available <a href="https://drive/google.com/file/d/1EiLKfTRDST7KJ_A79EftKTVzH5Xjj">here</a>. \n 
